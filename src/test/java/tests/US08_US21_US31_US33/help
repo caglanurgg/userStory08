@@ -1,0 +1,53 @@
+  //Cagla UserDashboard 800-818 arasi
+    @FindBy(xpath = "//a[@class='btn btn-white fs-18 ms-3 d-lg-block d-none']") //Homepage SignIn Button
+    public WebElement signInButton;
+    @FindBy(xpath = "//input[@id='email']") //Homepage>> LoginLink>> Email Text Box
+    public WebElement emailtextBox;
+    @FindBy(xpath = "//input[@id='password']") //Homepage>> LoginLink>> Password Text Box
+    public WebElement passwordTextBox;
+    @FindBy(xpath = "//button[@class='btn btn-primary']")  //Homepage>> LoginLink>> Logın Butonu
+    public WebElement loginButonu;
+    @FindBy(xpath = "//a[@class='nav-link p-0 active']")  //Homepage>> Dashboard
+    public WebElement dashboardHearderTextANT;
+    @FindBy (xpath = "//span[text()='VCards']") //VCard
+    public  WebElement vCardButton ;
+    @FindBy (xpath = "//a[@class='btn btn-primary']")
+    public  WebElement NewVCardButton;
+    @FindBy (xpath = "//button[@class='btn btn-secondary']")
+    public  WebElement  GenerateURLAliasButton;
+    @FindBy (xpath = "//input[@id='vcardSaveBtn']")
+    public  WebElement SaveButton;
+    *************************************************
+    bu da AdminDashboard
+    //Cagla 800 ve 826 arası
+    @FindBy(xpath = "//a[@class='btn btn-white fs-18 ms-3 d-lg-block d-none']") //Homepage SignIn Button
+    public WebElement signInButton;
+        @FindBy(xpath = "//input[@id='email']") //Homepage>> LoginLink>> Email Text Box
+        public WebElement emailtextBox;
+        @FindBy(xpath = "//input[@id='password']") //Homepage>> LoginLink>> Password Text Box
+        public WebElement passwordTextBox;
+        @FindBy(xpath = "//button[@class='btn btn-primary']")  //Homepage>> LoginLink>> Logın Butonu
+        public WebElement loginButonu;
+        @FindBy(xpath = "//a[@class='nav-link p-0 active']")  //Homepage>> Dashboard
+        public WebElement dashboardHearderTextANT;
+        @FindBy (xpath = "//span[text()='VCards']") //VCard
+        public  WebElement vCardButton ;
+        @FindBy (xpath = "//a[@class='btn btn-primary']")
+        public  WebElement NewVCardButton;
+        @FindBy (xpath = "//button[@class='btn btn-secondary']")
+        public  WebElement  GenerateURLAliasButton;
+        @FindBy (xpath = "//input[@id='vcardSaveBtn']")
+        public  WebElement SaveButton;
+        @FindBy (xpath = "//a[@class='nav-link p-0 active']")
+        public WebElement dashboardText;
+        @FindBy (xpath = "//span[text()='Languages']")
+        public WebElement languagesButton ;
+        @FindBy(xpath = "//div[@class='col-12 text-muted pagination-record ms-sm-3']")
+        public WebElement resultsText;
+        @FindBy(xpath = "//span[text()='Front CMS']")
+        public WebElement FrontCMSButton;
+
+
+
+        ikisini de eşitledim ama bence bazı elementler admin'de kullanıldığı
+        ve user'da kullanılmadığı için renksiz kalıyor

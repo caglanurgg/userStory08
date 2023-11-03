@@ -1,0 +1,62 @@
+  //User Dashboard >> Menü >> VCards
+   @FindBy (xpath = "//span[text()='VCards']")
+   public  WebElement VCardButton ;
+
+**************************************************
+//User Dashboard >> Menü >> VCards >> New VCard
+ @FindBy (xpath = "//a[@class='btn btn-primary']")
+public  WebElement NewVCardButton;
+*************************************************
+//User Dashboard >> Menü >> VCards >> New VCard >> GenerateURLAlias
+ @FindBy (xpath = "//button[@class='btn btn-secondary']")
+public  WebElement  GenerateURLAliasButton;
+************************************************
+//User Dashboard >> Menü >> VCards >> New VCard >> VCard Name
+@FindBy (xpath = "//input[@id='name']")
+public  WebElement  enterVCardName;
+*************************************************
+//User Dashboard >> Menü >> VCards >> New VCard >>
+@FindBy (xpath = "//input[@id='vcardSaveBtn']")
+public  WebElement SaveButton;
+************************************************
+
+@FindBy (xpath = "
+public  WebElement getConfirmationMessage;
+
+
+***********************************************
+//User Dashboard >> Menü >> VCards >> New VCard >>
+@FindBy (xpath = "//input[@placeholder='Enter VCard Name']")
+public  WebElement enterVCardName;
+******************************************
+//User Dashboard >> Menü >> VCards >> New VCard >>
+@FindBy (xpath = "//div[@style='display: none;']")
+public  WebElement getConfirmationMessage;
+ //*[text()='VCard created successfully.']
+
+**************************************
+ //User Dashboard >> Menü >> VCards >> New VCard >>
+@FindBy (xpath = "//div[@class='col-12 text-muted pagination-record ms-sm-3']")
+public  WebElement getVCardCount;
+*****************************************
+
+
+@FindBy (xpath = "(//*[@href='https://qa.smartcardlink.com/admin/vcards/888/edit'])[1]")
+public  WebElement LastCreatedVCard;
+************************************
+
+@FindBy (xpath = "//h1[text()='Edit VCard']")
+public  WebElement isEditVCardPageDisplayed;
+***********************************
+
+@FindBy (xpath = "//a[@class='nav-link p-4 active']")
+public  WebElement isRedirectedToTemplatesLink;
+*************************************
+
+@FindBy (xpath = "(//a[@class='nav-link p-4 '])[1]")
+public  WebElement isRedirectedToBusinessHoursLink;
+***********************************
+@FindBy (xpath = "//*[@href='https://qa.smartcardlink.com/admin/vcards/888/edit?part=services']")
+public  WebElement isRedirectedToServicesHoursLink;
+***********************************************
+public  WebElement isRedirectedToTestimonialsHoursLink;

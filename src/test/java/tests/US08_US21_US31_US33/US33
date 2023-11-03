@@ -1,0 +1,54 @@
+ USER STORY: Admin bilgileri ile giriş yaptıktan sonra Başlık ve Alt Metni,
+ özellikleri, about us sayfası metinlerini görüntüleyebildiğimi doğrulayabilmeliyim
+
+ US33_T01 --> Admin olarak sisteme giriş yapın.
+    1.1 ilgili url'e gidilir.
+    1.2.log in butonuna tıklanılır.
+    1.3.login  pagede email textbox'ına geçerli email girilir.
+    1.4.login  pagede password textbox'ına geçerli password girilir
+    1.5. log in butonuna basılır.
+    1.6.açılan sayfada dashboard yazısı doğrulanır.
+
+    US33_T02 -->Admin olarak Front CMS butonuna tıklayarak front CMS sayfasındaki zorunlu alanların başlıklarının (Banner Image,Title,Sub Text ) görünür olduğu doğrulanır.
+    2.1 ilgili url'e gidilir.
+    2.2.log in butonuna tıklanılır.
+    2.3.login  pagede email textbox'ına geçerli email girilir.
+    2.4.login  pagede password textbox'ına geçerli password girilir
+    2.5. log in butonuna basılır.
+    2.6  Front CMS  butonuna basılır.
+    2.7.  Front CMS  sayfasında Banner Image,Title,Sub Text başlıklarının görüntülendiği doğrulanır.
+
+US33_T03 --> Admin olarak Subscribers butonuna tıklayarak Subscribers sayfasındaki başlıkları (EMAIL, ACTION) görünür olduğu doğrulanır.
+    3.1 ilgili url'e gidilir.
+    3.2.log in butonuna tıklanılır.
+    3.3.login  pagede email textbox'ına geçerli email girilir.
+    3.4.login  pagede password textbox'ına geçerli password girilir
+    3.5. log in butonuna basılır.
+    3.6 Front CMS  butonuna basılır.
+    3.7. Subscribers butonuna basılır.
+    3.8. Subscribers sayfasında EMAIL,ACTION  başlıklarının görüntülendiği doğrulanır.
+
+
+
+US33_T04 -->Admin olarak Features butonuna tıklayarak Features sayfasındaki başlıkları (NAME,IMAGE,
+DESCRIPTION,ACTION) görünür olduğu doğrulanır.
+    4.1 ilgili url'e gidilir.
+    4.2.log in butonuna tıklanılır.
+    4.3.login  pagede email textbox'ına geçerli email girilir.
+    4.4.login  pagede password textbox'ına geçerli password girilir
+    4.5. log in butonuna basılır.
+    4.6 Front CMS  butonuna basılır.
+    4.7. Features butonuna basılır.
+    4.8. Features sayfasında NAME,IMAGE,DESCRIPTION,ACTION  başlıklarının görüntülendiği doğrulanır.
+
+
+US33_T05 -->Admin olarak About Us butonuna tıklayarak About Us  sayfasındaki başlıkları (About Image,
+            Title, Description) görünür olduğu doğrulanır.
+5.1 ilgili url'e gidilir.
+5.2.log in butonuna tıklanılır.
+5.3.login  pagede email textbox'ına geçerli email girilir.
+5.4.login  pagede password textbox'ına geçerli password girilir
+5.5. log in butonuna basılır.
+5.6 Front CMS  butonuna basılır.
+5.7. About Us butonuna basılır.
+5.8. About Us sayfasında About Image, Title, Description başlıklarının görüntülendiği doğrulanır.

@@ -1,0 +1,28 @@
+//Admin Dashboard >> Menü >> Dashboard
+@FindBy (xpath = "//a[@class='nav-link p-0 active']")
+public WebElement dashboardText;
+**********************************************
+//Admin Dashboard >> Menü >> Languages
+ @FindBy (xpath = "//span[text()='Languages']")
+ public WebElement languagesButton ;
+ *********************************************
+ //Admin Dashboard >> Menü >> Languages
+ @FindBy(xpath = "//div[@class='col-12 text-muted pagination-record ms-sm-3']")
+ public WebElement resultsText;
+ ********************************************
+//Admin Dashboard >> Menü >> Front CMS
+@FindBy(xpath = "//span[text()='Front CMS']")
+public WebElement FrontCMSButton;
+*************************************************
+//Admin Dashboard >> Menü >> VCards >> Search Box
+@FindBy (xpath = "//input[@class='form-control ps-8']")
+public WebElement searchBox;
+*************************************************
+//Admin Dashboard >> Menü >> Front CMS page
+@FindBy (xpath = "//a[@class='nav-link p-0 active']")
+public WebElement frontCMSPage;
+******************************************
+
+@FindBy (xpath = "//a[@class='nav-link p-0']
+public WebElement SubscribersButton;
+******************************************
